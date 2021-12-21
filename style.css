@@ -1,0 +1,23 @@
+#meme-image-container{
+    border: solid 1px black;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    background-image: url(imagens/images.jpeg);
+    background-size: contain;
+}
+
+#meme-image{
+
+}
+#meme-text{
+    width: 300px;
+    height: 300px;
+    padding-top: 85%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font: weight 900px;
+    color: rgb(236, 215, 187);
+}
+
+/*referencia: https://blog.betrybe.com/css/css-background-image/
