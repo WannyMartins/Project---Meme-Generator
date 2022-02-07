@@ -12,13 +12,13 @@
     height: 300px;
 }
 #meme-text{
-    max-width: 290px;
+    text-shadow: 5px 5px 5px black;
     width: 100%;
-     position: absolute; 
+    position: absolute; 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: auto;
+    font-size: 30px;
     font: weight 900px;
-    color: rgb(15, 9, 1);
+    color: white;
 }
 
 /*referencia: https://blog.betrybe.com/css/css-background-image/
