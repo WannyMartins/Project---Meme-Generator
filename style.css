@@ -1,13 +1,15 @@
 #meme-image-container{
-    display: flex;
+   position: relative;
     border: solid 1px black;
     width: 300px;
     height: 300px;
     background-color: white;
+    overflow: hidden; /* Faz o div não aumentar a altura por causa da imagem */
 }
 
 #meme-image{
-
+    width: 300px;
+    height: 300px;
 }
 #meme-text{
     max-width: 290px;
@@ -20,3 +22,5 @@
 }
 
 /*referencia: https://blog.betrybe.com/css/css-background-image/
+
+/*https://pt.stackoverflow.com/questions/52733/como-redimensionar-imagem-para-tamanho-do-container#:~:text=Tente%20recortar%20as%20imagens%20sempre,que%20ir%C3%A1%20transbordar%20da%20largura.
