@@ -1,50 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&family=Patrick+Hand&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-family: 'Patrick Hand', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    background-color: #c18fef;
+    background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,.3));
+
+}
+header{
+    box-shadow: 5px 5px 5px rgba(0,0,0,.3);
+    display:flex;
+    justify-content: space-evenly; 
+    background-color: #4fd8e8;
+    width: 50%;
+    background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,.3));
+    border: 6px purple solid;
+}
+h1{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 5px black;
+}
+span:nth-child(1){
+color: red;
+}
+span:nth-child(2){
+color: green;
+}
+span:nth-child(3){
+color: yellow;
+}
+span:nth-child(4){
+color: rgb(212, 51, 220);
+}
+span:nth-child(5){
+color: blue;
+}
+span:nth-child(6){
+color: orangered;
+}
+
+span:nth-child(7){
+color: purple;
+}
+
+                                
+
 #meme-image-container{
-   position: relative;
-    border: solid 1px black;
-    width: 300px;
+position: relative;
+border: solid 1px black;
+width: 300px;
     height: 300px;
     background-color: white;
     overflow: hidden; /* Faz o div não aumentar a altura por causa da imagem */
+}
+
+#text-input{
+    box-shadow: 5px 5px 5px rgba(0,0,0,.3);
+    margin-top: 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 5px;
+    width: 310px;
+}
+#meme-insert{
+    display:none ;
+}
+#meme-image-container{
+    box-shadow: 5px 5px 5px rgba(0,0,0,.3);
+    background-image:linear-gradient(to bottom, transparent, rgba(0,0,0,.3)) ;
+    margin-bottom: 20px;
 }
 
 #meme-image{
     width: 300px;
     height: 300px;
 }
+#label-input{
+    box-shadow: 5px 5px 5px rgba(0,0,0,.3);
+    margin: 20px;
+    border-radius: 5px;
+    border:solid 2px;
+    padding: 5px;
+    background-color: white;
+    font-size: 24px;
+}
+
+#label-input:hover{
+    background-color: rgba(99, 96, 96, 0.3);
+    cursor: pointer;
+}
+    
+
 #meme-text{
+    text-transform: uppercase;
     text-shadow: 5px 5px 5px black;
     width: 100%;
+    margin-top: 65%;
+    text-align: center;
     position: absolute; 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
     font: weight 900px;
     color: white;
-    z-index: 4;
+}
+h3{
+    font-size: 2rem;
+}
+#botoes-bordas{
+    width:300px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+
 }
 
 #fire{
+    box-shadow: 5px 5px 5px rgba(0,0,0,.3);
+    padding: 10px;
     background-color: red;
     font-size: large;
     color: white;
     font-weight: 400;
+    border-radius: 8px;
 
 }
+#fire:hover{
+    background-color: rgba(248, 11, 11, 0.3);
+    cursor: pointer;
+}
+#water:hover{
+    background-color: rgba(4, 0, 250, 0.3);
+    cursor: pointer;
+}
+#earth:hover{
+    background-color: rgba(4, 254, 4, 0.3);
+    cursor: pointer;
+}
+
 
 #water{
+    box-shadow: 5px 5px 5px rgba(0,0,0,.3);
+    padding: 10px;
     background-color: blue;
     font-size: large;
     color: white;
     font-weight: 400;
+    border-radius: 8px;
+
 
 }
 #earth{
+    box-shadow: 5px 5px 5px rgba(0,0,0,.3);
+    padding: 10px;
     background-color: green;
     font-size: large;
     color: white;
     font-weight: 400;
+    border-radius: 8px;
+
+}
+#imgs{
+    width: 350px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
 }
 .miniatura{
+    box-shadow: 5px 5px 5px rgba(0,0,0,.3);
     width: 70px;
+    border:solid 2px;
+    border-radius: 5px;
 }
 #meme-1, #meme-4{
     height: 70px;

@@ -9,25 +9,46 @@
 <body>
     <link rel="stylesheet" href="style.css">
     <Header>
-        <h1>Gerador de Memes</h1>
+        <h1>
+            <span>G</span>
+            <span>e</span>
+            <span>r</span>
+            <span>a</span>
+            <span>d</span>
+            <span>o</span>
+            <span>r</span>
+        </h1>
+        <h1>
+            <span>d</span>
+            <span>e</span>
+        </h1>
+        <h1>
+            <span>m</span>
+            <span>e</span>
+            <span>m</span>
+            <span>e</span>
+            <span>s</span>
+
+        </h1>
     </Header>
-    <input type="text" maxLength = '60'id='text-input'>
-    <br>
+    <input type="text" maxLength = '60' id='text-input' placeholder="digite um texto...">
+    <label for="meme-insert" id='label-input'>Escolha Uma Imagem Para Upload</label>
     <input type="file" id='meme-insert'>
     
     <div id='meme-image-container'>   
         <p id='meme-text'></p>
         <img id= 'meme-image' src="" alt="" >
     </div>
+    <h3>Estilos Customizados</h3>
+
     <div id='botoes-bordas'>
-        <h3>Estilos Customizados</h3>
         <button type="button" id='fire' >Fire</button>
         <button type="button" id='water' >Water</button>
         <button type="button" id='earth' >Earth</button>
     </div>
+    <h3>Memes pré prontos</h3>
     <div id='imgs'>
-        <h3>Memes pré prontos</h3>
-        <input type="image" src="/imgs/meme1.png" class='miniatura' id='meme-1'>
+        <img src="imgs/meme1.png" class='miniatura' id='meme-1'>
         <img src="imgs/meme2.png" class='miniatura' id='meme-2'>
         <img src="imgs/meme3.png" class='miniatura' id='meme-3'>
         <img src="imgs/meme4.png" class='miniatura' id='meme-4'>
