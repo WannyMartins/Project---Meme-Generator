@@ -18,9 +18,9 @@ body{
 header{
     box-shadow: 5px 5px 5px rgba(0,0,0,.3);
     display:flex;
-    justify-content: space-evenly; 
+    justify-content: space-around; 
     background-color: #4fd8e8;
-    width: 50%;
+    width: 800px;
     background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,.3));
     border: 6px purple solid;
 }
@@ -175,6 +175,7 @@ h3{
     display: flex;
     justify-content: space-between;
 
+
 }
 .miniatura{
     box-shadow: 5px 5px 5px rgba(0,0,0,.3);
@@ -184,6 +185,17 @@ h3{
 }
 #meme-1, #meme-4{
     height: 70px;
+}
+
+hr{
+    width: 100%;
+    margin-top: 20px;
+    border-bottom: black 1px solid;
+
+}
+footer{
+    
+    margin-top: 20px;
 }
 /*referencia: https://blog.betrybe.com/css/css-background-image/
 

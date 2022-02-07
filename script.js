@@ -49,7 +49,12 @@ bntMeme3.addEventListener('click', function () {
 bntMeme4.addEventListener('click', function () {  
     carregarImg('imgs/meme4.png')});
 
-
+    
+window.onload = [
+    carregarImg("imgs/meme4.png"), 
+    input.value = 'VAMOS CRIAR MEMES?',
+    texto()
+]
 // change garante que será alterado o file de acordo com a função uploadImg;
 
 // pega o objeto no memeInsert(event target) e poe como src'url' memeImg parecendo o objetoURL criado.
