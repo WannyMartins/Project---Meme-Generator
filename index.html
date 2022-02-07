@@ -7,16 +7,22 @@
     <title>Gerador de Memes</title>
 </head>
 <body>
-    <Header><h1>Gerador de Memes</h1></Header>
     <link rel="stylesheet" href="style.css">
+    <Header>
+        <h1>Gerador de Memes</h1>
+    </Header>
     <input type="text" maxLength = '60'id='text-input'>
+    <input type="file" id='meme-insert'>
     
     <div id='meme-image-container'>   
         <p id='meme-text'></p>
         <img id= 'meme-image' src="" alt="" >
-
     </div>
-    <input type="file" id='meme-insert'>
+    <div id='botoes-bordas'>
+        <button type="button" id='fire' >Fire</button>
+        <button type="button" id='water' >Water</button>
+        <button type="button" id='earth' >Earth</button>
+    </div>
 
     <script src="script.js"></script>   
 </body>

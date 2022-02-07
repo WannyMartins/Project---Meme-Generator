@@ -21,6 +21,31 @@
     color: white;
 }
 
+#fire{
+    /* border: dashed 3px red; */
+    background-color: red;
+    font-size: large;
+    color: white;
+    font-weight: 400;
+
+}
+
+#water{
+    /* border: blue 5px double; */
+    background-color: blue;
+    font-size: large;
+    color: white;
+    font-weight: 400;
+
+}
+#earth{
+    /* border: groove green 6px; */
+    background-color: green;
+    font-size: large;
+    color: white;
+    font-weight: 400;
+}
+
 /*referencia: https://blog.betrybe.com/css/css-background-image/
 
 /*https://pt.stackoverflow.com/questions/52733/como-redimensionar-imagem-para-tamanho-do-container#:~:text=Tente%20recortar%20as%20imagens%20sempre,que%20ir%C3%A1%20transbordar%20da%20largura.
