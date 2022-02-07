@@ -6,6 +6,10 @@ const memeImg = document.getElementById('meme-image');
 const bntFire = document.getElementById('fire');
 const bntWater = document.getElementById('water');
 const bntEarth = document.getElementById('earth');
+const bntMeme1 = document.getElementById('meme-1');
+const bntMeme2 = document.getElementById('meme-2');
+const bntMeme3 = document.getElementById('meme-3');
+const bntMeme4 = document.getElementById('meme-4');
 
 function texto() {
     textoInput.innerHTML = input.value;
@@ -32,6 +36,18 @@ bntEarth.addEventListener('click', function () {
 bntWater.addEventListener('click', function () {
     mudaBorda('5px double blue');
 });
+
+function carregarImg(src){
+    memeImg.src = src
+}
+bntMeme1.addEventListener('click', function () {
+    carregarImg('imgs/meme1.png')});
+bntMeme2.addEventListener('click', function () {
+    carregarImg('imgs/meme2.png')});
+bntMeme3.addEventListener('click', function () {
+    carregarImg('imgs/meme3.png')});
+bntMeme4.addEventListener('click', function () {  
+    carregarImg('imgs/meme4.png')});
 
 
 // change garante que será alterado o file de acordo com a função uploadImg;

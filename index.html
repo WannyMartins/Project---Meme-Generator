@@ -12,6 +12,7 @@
         <h1>Gerador de Memes</h1>
     </Header>
     <input type="text" maxLength = '60'id='text-input'>
+    <br>
     <input type="file" id='meme-insert'>
     
     <div id='meme-image-container'>   
@@ -19,9 +20,18 @@
         <img id= 'meme-image' src="" alt="" >
     </div>
     <div id='botoes-bordas'>
+        <h3>Estilos Customizados</h3>
         <button type="button" id='fire' >Fire</button>
         <button type="button" id='water' >Water</button>
         <button type="button" id='earth' >Earth</button>
+    </div>
+    <div id='imgs'>
+        <h3>Memes pré prontos</h3>
+        <input type="image" src="/imgs/meme1.png" class='miniatura' id='meme-1'>
+        <img src="imgs/meme2.png" class='miniatura' id='meme-2'>
+        <img src="imgs/meme3.png" class='miniatura' id='meme-3'>
+        <img src="imgs/meme4.png" class='miniatura' id='meme-4'>
+
     </div>
 
     <script src="script.js"></script>   
