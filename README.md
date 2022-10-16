@@ -1,16 +1,24 @@
-# 🚧 README em construção 🚧
+<h1 align="center">Bem Vindo ao Meme Generator 👋</h1>
 
-<!-- Olá, Tryber!
+>  Esta aplicação permite ao usuário criar memes divertidos de maneira fácil, e também pode personalizar escrita, imagem.
+Projeto criado para consolidar conhecimentos adquiridos durante o módulo de **Fundamentos em desenvolvimento web na Trybe**.
 
-Esse é apenas um arquivo inicial para o README do seu projeto.
+## Ferramentas utilizadas
 
-É essencial que você preencha esse documento por conta própria, ok?
+- HTML,
+- CSS,
+- JavaScript
 
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
+## Como usar
 
-⚠️ IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
+Basta acessar clicando na _Homepage_
 
--->
+### 🏠 [Homepage](https://wannymartins.github.io/Project---Meme-Generator/)
+
+## Autor
+
+👤 **Wanny Martins**
+
+* Github: [@WannyMartins](https://github.com/WannyMartins)
+* LinkedIn: [@wannymartins](https://linkedin.com/in//wannymartins\/)
+
